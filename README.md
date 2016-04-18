@@ -1,6 +1,6 @@
-# tdd-mixins-core
-Java-8 default interfaces useful for a test fixture
-Contains AssertJ and the ExtendedMockito mixins
+# tdd-mixins-junit4
+Java-8 default interfaces useful for a JUnit 4 test fixture
+Contains AssertJ and the ExtendedMockito mixins as well as a mixin for JUnit asserts and AllAssertions which combines JUnit and AssertJ assertions
 Does not require any specific test library such as JUnit or TestNG
 
 Requires Java 8 (or higher)
@@ -8,24 +8,24 @@ Requires Java 8 (or higher)
 
 ##Latest release
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.aro-tech/tdd-mixins-core/badge.svg)](http://search.maven.org/#artifactdetails|com.github.aro-tech|tdd-mixins-core|0.6.0|jar)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.aro-tech/tdd-mixins-junit4/badge.svg)](http://search.maven.org/#artifactdetails|com.github.aro-tech|tdd-mixins-junit4|0.6.0|jar)
 
-v0.6.0: [Release notes on github] (https://github.com/aro-tech/tdd-mixins-core/releases/tag/v0.6.0)
+v0.6.0: [Release notes on github] (https://github.com/aro-tech/tdd-mixins-junit4/releases/tag/v0.6.0)
 
-[Binary downloads] (https://oss.sonatype.org/content/groups/public/com/github/aro-tech/tdd-mixins-core/0.6.0/ "binaries")
+[Binary downloads] (https://oss.sonatype.org/content/groups/public/com/github/aro-tech/tdd-mixins-junit4/0.6.0/ "binaries")
 
 In Maven:
 
 ```html
 <dependency>
   <groupId>com.github.aro-tech</groupId>
-  <artifactId>tdd-mixins-core</artifactId>
+  <artifactId>tdd-mixins-junit4</artifactId>
   <version>0.6.0</version>
 </dependency>
 
 ##Example usage 
 ```
-	public class EmployeeTest implements ExtendedMockito, AssertJ { 
+	public class MyTest implements ExtendedMockito, AllAssertions { 
 	...
 ```	
 
@@ -36,7 +36,10 @@ In Maven:
 ```
 	assertThat(answer).contains("Shire", "Baggins");
 ```
-		
+	
+```
+	assertTrue(c == '*');
+```		
  
 ##Blog
 [![The Green Bar](https://img.shields.io/badge/My_Blog:-The_Green_Bar-brightgreen.svg)](https://thegreenbar.wordpress.com/)
