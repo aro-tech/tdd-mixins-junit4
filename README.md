@@ -22,6 +22,7 @@ In Maven:
   <artifactId>tdd-mixins-junit4</artifactId>
   <version>0.7.0</version>
 </dependency>
+```
 
 ##Example usage 
 ```
