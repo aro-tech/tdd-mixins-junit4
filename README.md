@@ -21,6 +21,7 @@ In Maven:
   <groupId>com.github.aro-tech</groupId>
   <artifactId>tdd-mixins-junit4</artifactId>
   <version>0.7.1</version>
+  <scope>test</scope>
 </dependency>
 ```
 
