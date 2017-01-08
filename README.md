@@ -1,6 +1,8 @@
 # tdd-mixins-junit4
 Java-8 default interfaces useful for a JUnit 4 test fixture
+
 Contains AssertJ and the ExtendedMockito mixins as well as a mixin for JUnit asserts and AllAssertions which combines JUnit and AssertJ assertions
+
 Includes JUnit 4.12 in its dependencies.
 
 Requires Java 8 (or higher)
