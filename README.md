@@ -10,11 +10,11 @@ Requires Java 8 (or higher)
 
 ##Latest release
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.aro-tech/tdd-mixins-junit4/badge.svg)](http://search.maven.org/#artifactdetails|com.github.aro-tech|tdd-mixins-junit4|1.1.7|jar)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.aro-tech/tdd-mixins-junit4/badge.svg)](http://search.maven.org/#artifactdetails|com.github.aro-tech|tdd-mixins-junit4|1.1.8|jar)
 
-v1.1.7: [Release notes on github] (https://github.com/aro-tech/tdd-mixins-junit4/releases/tag/v1.1.7)
+v1.1.8: [Release notes on github] (https://github.com/aro-tech/tdd-mixins-junit4/releases/tag/v1.1.8)
 
-[Binary downloads] (https://oss.sonatype.org/content/groups/public/com/github/aro-tech/tdd-mixins-junit4/1.1.7/ "binaries")
+[Binary downloads] (https://oss.sonatype.org/content/groups/public/com/github/aro-tech/tdd-mixins-junit4/1.1.8/ "binaries")
 
 In Maven:
 
@@ -22,7 +22,7 @@ In Maven:
 <dependency>
   <groupId>com.github.aro-tech</groupId>
   <artifactId>tdd-mixins-junit4</artifactId>
-  <version>1.1.7</version>
+  <version>1.1.8</version>
   <scope>test</scope>
 </dependency>
 ```
