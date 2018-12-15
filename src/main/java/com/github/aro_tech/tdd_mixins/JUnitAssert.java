@@ -1,7 +1,7 @@
 package com.github.aro_tech.tdd_mixins;
 
-import org.hamcrest.Matcher; 
-import org.junit.Assert; 
+import org.hamcrest.Matcher;
+import org.junit.Assert;
 import org.junit.internal.ArrayComparisonFailure; 
 
 /** 
@@ -555,7 +555,7 @@ public interface JUnitAssert {
      * Delegate call to public static void org.junit.Assert.fail(java.lang.String)
      * {@link org.junit.Assert#fail(java.lang.String)}
      */
-    default void fail(String message) {
+    default void junitFail(String message) {
         Assert.fail(message);
     }
 
